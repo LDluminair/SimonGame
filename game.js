@@ -6,7 +6,7 @@ var level = 0;
 var score = 0;
 
 
-$(document).on("keydown", function(event){
+$(document).on("keydown touchstart", function(event){
     if (started === false){
     nextSequence()
     started = true;
